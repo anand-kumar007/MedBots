@@ -1,0 +1,31 @@
+goto the particular folder then
+
+touch .gitignore
+git init
+git add .
+git commit -m "msg"
+
+git status 
+_just to see__
+
+add ssh-keygen -4 rsa -b 4096 -C "mailId"
+
+tail <path to id_rsa.pub> # add this key to your github accout
+
+
+git remote add origin <<ssh url of reposiort>
+
+
+git push origin master
+
+
+
+___if some changes you've made then __
+git add .
+ 
+git commit -m "added newCheatsheetfile"
+
+
+Finally push it
+
+git push origin master.
